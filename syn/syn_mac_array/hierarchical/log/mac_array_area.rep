@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : reference
+Design : mac_array
+Version: K-2015.06-SP2
+Date   : Sun Mar 15 13:23:05 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+CKAN2D0            tcbn65gpluswc
+                                  2.160000      37     79.920003  
+CKND2D1            tcbn65gpluswc
+                                  1.440000       1      1.440000  
+DFQD1              tcbn65gpluswc
+                                  6.840000     250   1710.000038  n
+INR2D0             tcbn65gpluswc
+                                  2.160000       8     17.280001  
+INR2D1             tcbn65gpluswc
+                                  2.160000     205    442.800018  
+INVD0              tcbn65gpluswc
+                                  1.080000       2      2.160000  
+ND4D1              tcbn65gpluswc
+                                  2.520000       4     10.080000  
+NR4D0              tcbn65gpluswc
+                                  2.520000      16     40.320000  
+NR4D1              tcbn65gpluswc
+                                  3.600000       1      3.600000  
+mac_col_bw8_bw_psum22_pr8_col_id1
+                              17489.880281       1  17489.880281  h, n
+mac_col_bw8_bw_psum22_pr8_col_id2
+                              17468.280281       1  17468.280281  h, n
+mac_col_bw8_bw_psum22_pr8_col_id3
+                              17433.360279       1  17433.360279  h, n
+mac_col_bw8_bw_psum22_pr8_col_id4
+                              17460.720281       1  17460.720281  h, n
+mac_col_bw8_bw_psum22_pr8_col_id5
+                              17484.840281       1  17484.840281  h, n
+mac_col_bw8_bw_psum22_pr8_col_id6
+                              17498.160279       1  17498.160279  h, n
+mac_col_bw8_bw_psum22_pr8_col_id7
+                              17380.440276       1  17380.440276  h, n
+mac_col_bw8_bw_psum22_pr8_col_id8
+                              16701.840260       1  16701.840260  h, n
+-----------------------------------------------------------------------------
+Total 17 references                                 141225.122278
+1

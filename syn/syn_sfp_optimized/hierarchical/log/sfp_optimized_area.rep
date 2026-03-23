@@ -1,0 +1,1044 @@
+ 
+****************************************
+Report : reference
+Design : sfp_optimized
+Version: K-2015.06-SP2
+Date   : Sat Mar 21 15:49:44 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2D0              tcbn65gplustc
+                                  2.160000       4      8.640000  
+AN2D1              tcbn65gplustc
+                                  2.160000       4      8.640000  
+AN2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+AN2D4              tcbn65gplustc
+                                  4.320000       1      4.320000  
+AN2XD1             tcbn65gplustc
+                                  2.160000      11     23.760001  
+AN3XD1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AN4D0              tcbn65gplustc
+                                  2.880000       2      5.760000  
+AO21D1             tcbn65gplustc
+                                  2.520000       2      5.040000  
+AO22D0             tcbn65gplustc
+                                  2.880000     161    463.680018  
+AOI21D0            tcbn65gplustc
+                                  2.160000      61    131.760005  
+AOI21D1            tcbn65gplustc
+                                  2.160000       7     15.120001  
+AOI21D2            tcbn65gplustc
+                                  3.240000       6     19.440000  
+AOI21D4            tcbn65gplustc
+                                  6.480000       2     12.960000  
+AOI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI22D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI22D2            tcbn65gplustc
+                                  4.320000       5     21.600001  
+AOI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI31D2            tcbn65gplustc
+                                  4.320000       1      4.320000  
+AOI211D1           tcbn65gplustc
+                                  2.520000       1      2.520000  
+BUFFD1             tcbn65gplustc
+                                  1.440000       1      1.440000  
+BUFFD2             tcbn65gplustc
+                                  2.160000      14     30.240001  
+BUFFD6             tcbn65gplustc
+                                  4.320000       1      4.320000  
+BUFFD8             tcbn65gplustc
+                                  5.760000       1      5.760000  
+CKAN2D0            tcbn65gplustc
+                                  2.160000     447    965.520038  
+CKBD1              tcbn65gplustc
+                                  1.440000      11     15.840001  
+CKBD2              tcbn65gplustc
+                                  2.160000       3      6.480000  
+CKBD4              tcbn65gplustc
+                                  3.240000       1      3.240000  
+CKMUX2D1           tcbn65gplustc
+                                  3.600000       3     10.800000  
+CKMUX2D2           tcbn65gplustc
+                                  3.960000       5     19.800000  
+CKND2              tcbn65gplustc
+                                  1.440000      31     44.640002  
+CKND2D0            tcbn65gplustc
+                                  1.440000     322    463.680018  
+CKND2D1            tcbn65gplustc
+                                  1.440000      41     59.040002  
+CKND2D2            tcbn65gplustc
+                                  2.520000      24     60.480000  
+CKND2D4            tcbn65gplustc
+                                  4.320000       1      4.320000  
+CKND3              tcbn65gplustc
+                                  2.160000       1      2.160000  
+CKND4              tcbn65gplustc
+                                  2.520000       1      2.520000  
+CKND12             tcbn65gplustc
+                                  6.120000       1      6.120000  
+CKXOR2D0           tcbn65gplustc
+                                  3.600000      72    259.199993  
+CKXOR2D1           tcbn65gplustc
+                                  3.600000       5     18.000000  
+CKXOR2D4           tcbn65gplustc
+                                  7.560000       2     15.120000  
+DFQD1              tcbn65gplustc
+                                  6.840000      40    273.600006  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     669   6261.839770  n
+EDFQD2             tcbn65gplustc
+                                  9.720000       1      9.720000  n
+EDFQD4             tcbn65gplustc
+                                 10.800000      37    399.600007  n
+FA1D0              tcbn65gplustc
+                                  9.000000      16    144.000000  r
+FA1D1              tcbn65gplustc
+                                 10.080000      22    221.759998  r
+FA1D4              tcbn65gplustc
+                                 14.400000       1     14.400000  r
+HA1D0              tcbn65gplustc
+                                  5.760000       9     51.840002  r
+HA1D1              tcbn65gplustc
+                                  6.120000       1      6.120000  r
+IAO21D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IND2D0             tcbn65gplustc
+                                  2.160000       2      4.320000  
+IND2D1             tcbn65gplustc
+                                  2.160000       3      6.480000  
+IND2D2             tcbn65gplustc
+                                  2.880000       3      8.640000  
+IND3D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+IND3D2             tcbn65gplustc
+                                  4.320000       1      4.320000  
+IND3D4             tcbn65gplustc
+                                  7.560000       1      7.560000  
+INR2D0             tcbn65gplustc
+                                  2.160000      95    205.200008  
+INR4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INVD0              tcbn65gplustc
+                                  1.080000     335    361.800014  
+INVD1              tcbn65gplustc
+                                  1.080000     105    113.400005  
+INVD2              tcbn65gplustc
+                                  1.440000       3      4.320000  
+INVD3              tcbn65gplustc
+                                  2.160000       2      4.320000  
+INVD4              tcbn65gplustc
+                                  2.520000       2      5.040000  
+INVD6              tcbn65gplustc
+                                  3.240000       1      3.240000  
+IOA21D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IOA21D2            tcbn65gplustc
+                                  3.240000       1      3.240000  
+MAOI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+MUX2D4             tcbn65gplustc
+                                  6.120000       2     12.240000  
+MUX2ND0            tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D0              tcbn65gplustc
+                                  1.440000       7     10.080000  
+ND2D1              tcbn65gplustc
+                                  1.440000      50     72.000003  
+ND2D2              tcbn65gplustc
+                                  2.520000      61    153.719999  
+ND2D3              tcbn65gplustc
+                                  3.240000       5     16.200000  
+ND2D4              tcbn65gplustc
+                                  4.320000      12     51.840002  
+ND2D8              tcbn65gplustc
+                                  7.920000       4     31.680000  
+ND3D2              tcbn65gplustc
+                                  3.240000       6     19.440000  
+ND3D8              tcbn65gplustc
+                                 12.240000       1     12.240000  
+NR2D0              tcbn65gplustc
+                                  1.440000     381    548.640022  
+NR2D1              tcbn65gplustc
+                                  1.440000      25     36.000001  
+NR2D2              tcbn65gplustc
+                                  2.520000      14     35.280000  
+NR2D3              tcbn65gplustc
+                                  3.240000       3      9.720000  
+NR2D4              tcbn65gplustc
+                                  4.320000       2      8.640000  
+NR2XD0             tcbn65gplustc
+                                  1.440000      44     63.360003  
+NR2XD1             tcbn65gplustc
+                                  2.520000      33     83.159999  
+NR2XD2             tcbn65gplustc
+                                  4.320000       1      4.320000  
+NR3D1              tcbn65gplustc
+                                  3.240000       1      3.240000  
+NR3D2              tcbn65gplustc
+                                  5.760000       1      5.760000  
+OAI21D0            tcbn65gplustc
+                                  2.160000      90    194.400008  
+OAI21D1            tcbn65gplustc
+                                  2.160000      11     23.760001  
+OAI21D2            tcbn65gplustc
+                                  3.240000       9     29.160000  
+OAI21D4            tcbn65gplustc
+                                  6.480000       3     19.440000  
+OAI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI22D1            tcbn65gplustc
+                                  2.520000      14     35.280000  
+OAI22D2            tcbn65gplustc
+                                  4.320000       4     17.280001  
+OAI31D2            tcbn65gplustc
+                                  4.320000       1      4.320000  
+OR2D0              tcbn65gplustc
+                                  2.160000      10     21.600001  
+OR2D1              tcbn65gplustc
+                                  2.160000       8     17.280001  
+OR2XD1             tcbn65gplustc
+                                  2.160000       2      4.320000  
+TIEL               tcbn65gplustc
+                                  1.080000       1      1.080000  
+XNR2D0             tcbn65gplustc
+                                  3.600000     135    485.999987  
+XNR2D1             tcbn65gplustc
+                                  3.600000       3     10.800000  
+XNR2D4             tcbn65gplustc
+                                  7.560000       1      7.560000  
+XNR3D2             tcbn65gplustc
+                                  7.920000       5     39.600000  
+XNR3D4             tcbn65gplustc
+                                 10.440000       9     93.959996  
+XOR2D0             tcbn65gplustc
+                                  3.600000      20     71.999998  
+XOR2D2             tcbn65gplustc
+                                  3.960000       3     11.880000  
+XOR3D0             tcbn65gplustc
+                                  6.120000       1      6.120000  
+XOR3D1             tcbn65gplustc
+                                  6.120000       1      6.120000  
+XOR3D2             tcbn65gplustc
+                                  6.840000       4     27.360001  
+fifo_depth16_bw1                408.959998       1    408.959998  h, n
+fifo_depth16_bw22              5290.560062       1   5290.560062  h, n
+sfp_div_radix4_exact_main_width22_0
+                              40118.040606       1  40118.040606  h, n
+sfp_div_radix4_exact_main_width22_1
+                              40142.520607       1  40142.520607  h, n
+sfp_div_radix4_exact_main_width22_2
+                              40113.720607       1  40113.720607  h, n
+sfp_div_radix4_exact_main_width22_3
+                              40120.920608       1  40120.920608  h, n
+sfp_div_radix4_exact_main_width22_4
+                              40119.120607       1  40119.120607  h, n
+sfp_div_radix4_exact_main_width22_5
+                              40116.240608       1  40116.240608  h, n
+sfp_div_radix4_exact_main_width22_6
+                              40114.440607       1  40114.440607  h, n
+sfp_div_radix4_exact_main_width22_7
+                              40123.800608       1  40123.800608  h, n
+-----------------------------------------------------------------------------
+Total 119 references                                339847.564836
+1
+ 
+****************************************
+Report : reference
+Design : sfp_optimized
+Version: K-2015.06-SP2
+Date   : Sat Mar 21 15:52:47 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2D0              tcbn65gplustc
+                                  2.160000       3      6.480000  
+AN2D8              tcbn65gplustc
+                                  6.840000       1      6.840000  
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AN3D0              tcbn65gplustc
+                                  2.520000       1      2.520000  
+AN4D0              tcbn65gplustc
+                                  2.880000       2      5.760000  
+AO21D1             tcbn65gplustc
+                                  2.520000       5     12.600000  
+AOI21D0            tcbn65gplustc
+                                  2.160000      24     51.840002  
+AOI21D1            tcbn65gplustc
+                                  2.160000      25     54.000002  
+AOI21D2            tcbn65gplustc
+                                  3.240000       5     16.200000  
+AOI21D4            tcbn65gplustc
+                                  6.480000       4     25.920000  
+AOI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI22D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI31D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI211D0           tcbn65gplustc
+                                  2.520000       3      7.560000  
+AOI211D1           tcbn65gplustc
+                                  2.520000       2      5.040000  
+AOI211XD0          tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI221D0           tcbn65gplustc
+                                  2.880000       3      8.640000  
+BUFFD0             tcbn65gplustc
+                                  1.440000       1      1.440000  
+BUFFD1             tcbn65gplustc
+                                  1.440000       4      5.760000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       3      6.480000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       3      7.560000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       1      4.320000  
+CKAN2D0            tcbn65gplustc
+                                  2.160000     306    660.960026  
+CKBD1              tcbn65gplustc
+                                  1.440000       9     12.960001  
+CKBD2              tcbn65gplustc
+                                  2.160000       1      2.160000  
+CKBD4              tcbn65gplustc
+                                  3.240000       2      6.480000  
+CKBD6              tcbn65gplustc
+                                  4.320000       1      4.320000  
+CKMUX2D2           tcbn65gplustc
+                                  3.960000       1      3.960000  
+CKND2              tcbn65gplustc
+                                  1.440000      15     21.600001  
+CKND2D0            tcbn65gplustc
+                                  1.440000     466    671.040027  
+CKND2D1            tcbn65gplustc
+                                  1.440000      24     34.560001  
+CKND2D2            tcbn65gplustc
+                                  2.520000      14     35.280000  
+CKND2D3            tcbn65gplustc
+                                  3.240000       1      3.240000  
+CKND2D4            tcbn65gplustc
+                                  4.320000       8     34.560001  
+CKND2D8            tcbn65gplustc
+                                  7.920000       1      7.920000  
+CKND16             tcbn65gplustc
+                                  7.920000       1      7.920000  
+CKXOR2D0           tcbn65gplustc
+                                  3.600000      92    331.199991  
+CKXOR2D1           tcbn65gplustc
+                                  3.600000       7     25.199999  
+CKXOR2D4           tcbn65gplustc
+                                  7.560000       4     30.240000  
+DFQD1              tcbn65gplustc
+                                  6.840000      40    273.600006  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     670   6271.199770  n
+EDFQD4             tcbn65gplustc
+                                 10.800000      37    399.600007  n
+FA1D0              tcbn65gplustc
+                                  9.000000      17    153.000000  r
+FA1D1              tcbn65gplustc
+                                 10.080000      19    191.519999  r
+FA1D2              tcbn65gplustc
+                                 10.440000       2     20.879999  r
+FA1D4              tcbn65gplustc
+                                 14.400000       2     28.799999  r
+HA1D0              tcbn65gplustc
+                                  5.760000      18    103.680004  r
+IAO21D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IAO21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IIND4D1            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D0             tcbn65gplustc
+                                  2.160000       5     10.800000  
+INR2D0             tcbn65gplustc
+                                  2.160000     186    401.760016  
+INR2XD1            tcbn65gplustc
+                                  2.880000       2      5.760000  
+INVD0              tcbn65gplustc
+                                  1.080000     361    389.880015  
+INVD1              tcbn65gplustc
+                                  1.080000      64     69.120003  
+INVD2              tcbn65gplustc
+                                  1.440000       3      4.320000  
+INVD3              tcbn65gplustc
+                                  2.160000       2      4.320000  
+INVD4              tcbn65gplustc
+                                  2.520000       1      2.520000  
+INVD6              tcbn65gplustc
+                                  3.240000       1      3.240000  
+IOA21D0            tcbn65gplustc
+                                  2.520000     160    403.199997  
+IOA21D1            tcbn65gplustc
+                                  2.520000       2      5.040000  
+MAOI22D0           tcbn65gplustc
+                                  2.880000       3      8.640000  
+MAOI22D1           tcbn65gplustc
+                                  2.880000       4     11.520000  
+MAOI222D0          tcbn65gplustc
+                                  2.880000      12     34.560001  
+MOAI22D0           tcbn65gplustc
+                                  2.880000       1      2.880000  
+MUX2D2             tcbn65gplustc
+                                  3.960000       1      3.960000  
+ND2D0              tcbn65gplustc
+                                  1.440000      11     15.840001  
+ND2D1              tcbn65gplustc
+                                  1.440000      63     90.720004  
+ND2D2              tcbn65gplustc
+                                  2.520000      59    148.679999  
+ND2D3              tcbn65gplustc
+                                  3.240000       6     19.440000  
+ND2D4              tcbn65gplustc
+                                  4.320000       4     17.280001  
+ND2D8              tcbn65gplustc
+                                  7.920000       1      7.920000  
+ND3D2              tcbn65gplustc
+                                  3.240000       4     12.960000  
+ND4D2              tcbn65gplustc
+                                  4.680000       1      4.680000  
+NR2D0              tcbn65gplustc
+                                  1.440000     362    521.280021  
+NR2D1              tcbn65gplustc
+                                  1.440000      15     21.600001  
+NR2D2              tcbn65gplustc
+                                  2.520000      12     30.240000  
+NR2D3              tcbn65gplustc
+                                  3.240000       2      6.480000  
+NR2XD0             tcbn65gplustc
+                                  1.440000      18     25.920001  
+NR2XD1             tcbn65gplustc
+                                  2.520000      30     75.599999  
+NR2XD2             tcbn65gplustc
+                                  4.320000       3     12.960001  
+NR3D1              tcbn65gplustc
+                                  3.240000       1      3.240000  
+OA21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI21D0            tcbn65gplustc
+                                  2.160000      67    144.720006  
+OAI21D1            tcbn65gplustc
+                                  2.160000      31     66.960003  
+OAI21D2            tcbn65gplustc
+                                  3.240000      12     38.880000  
+OAI21D4            tcbn65gplustc
+                                  6.480000       4     25.920000  
+OAI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI22D1            tcbn65gplustc
+                                  2.520000       5     12.600000  
+OAI22D2            tcbn65gplustc
+                                  4.320000       3     12.960001  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI211D0           tcbn65gplustc
+                                  2.520000       5     12.600000  
+OAI211D2           tcbn65gplustc
+                                  4.320000       3     12.960001  
+OR2D0              tcbn65gplustc
+                                  2.160000      10     21.600001  
+OR2D1              tcbn65gplustc
+                                  2.160000       6     12.960001  
+TIEL               tcbn65gplustc
+                                  1.080000       1      1.080000  
+XNR2D0             tcbn65gplustc
+                                  3.600000     127    457.199988  
+XNR2D1             tcbn65gplustc
+                                  3.600000       4     14.400000  
+XNR2D2             tcbn65gplustc
+                                  3.960000       1      3.960000  
+XNR2D4             tcbn65gplustc
+                                  7.560000       4     30.240000  
+XNR3D2             tcbn65gplustc
+                                  7.920000       5     39.600000  
+XNR3D4             tcbn65gplustc
+                                 10.440000       8     83.519997  
+XOR2D0             tcbn65gplustc
+                                  3.600000       1      3.600000  
+XOR2D2             tcbn65gplustc
+                                  3.960000       4     15.840000  
+XOR3D0             tcbn65gplustc
+                                  6.120000       2     12.240000  
+XOR3D2             tcbn65gplustc
+                                  6.840000       3     20.520000  
+fifo_depth16_bw1                407.519998       1    407.519998  h, n
+fifo_depth16_bw22              4938.840026       1   4938.840026  h, n
+sfp_div_radix4_exact_main_width22_0
+                              38953.440560       1  38953.440560  h, n
+sfp_div_radix4_exact_main_width22_1
+                              38973.960562       1  38973.960562  h, n
+sfp_div_radix4_exact_main_width22_2
+                              38956.320561       1  38956.320561  h, n
+sfp_div_radix4_exact_main_width22_3
+                              38982.600563       1  38982.600563  h, n
+sfp_div_radix4_exact_main_width22_4
+                              38955.960560       1  38955.960560  h, n
+sfp_div_radix4_exact_main_width22_5
+                              38957.400561       1  38957.400561  h, n
+sfp_div_radix4_exact_main_width22_6
+                              38970.360563       1  38970.360563  h, n
+sfp_div_radix4_exact_main_width22_7
+                              38960.280560       1  38960.280560  h, n
+-----------------------------------------------------------------------------
+Total 116 references                                330070.684409
+1
+ 
+****************************************
+Report : reference
+Design : sfp_optimized
+Version: K-2015.06-SP2
+Date   : Sat Mar 21 16:17:18 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2D0              tcbn65gplustc
+                                  2.160000       6     12.960001  
+AN2D1              tcbn65gplustc
+                                  2.160000       1      2.160000  
+AN2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+AN2XD1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+AO21D0             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO21D1             tcbn65gplustc
+                                  2.520000       5     12.600000  
+AOI21D0            tcbn65gplustc
+                                  2.160000      36     77.760003  
+AOI21D1            tcbn65gplustc
+                                  2.160000      25     54.000002  
+AOI21D2            tcbn65gplustc
+                                  3.240000       5     16.200000  
+AOI21D4            tcbn65gplustc
+                                  6.480000       3     19.440000  
+AOI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI22D2            tcbn65gplustc
+                                  4.320000       2      8.640000  
+AOI31D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI211D0           tcbn65gplustc
+                                  2.520000       3      7.560000  
+AOI211D1           tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI211XD0          tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI221D0           tcbn65gplustc
+                                  2.880000       2      5.760000  
+AOI221D1           tcbn65gplustc
+                                  3.240000       1      3.240000  
+BUFFD1             tcbn65gplustc
+                                  1.440000       3      4.320000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       8     17.280001  
+BUFFD3             tcbn65gplustc
+                                  2.520000       3      7.560000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       2      8.640000  
+BUFFD16            tcbn65gplustc
+                                 10.440000       1     10.440000  
+CKAN2D0            tcbn65gplustc
+                                  2.160000     426    920.160037  
+CKAN2D4            tcbn65gplustc
+                                  3.240000       1      3.240000  
+CKBD1              tcbn65gplustc
+                                  1.440000       4      5.760000  
+CKBD3              tcbn65gplustc
+                                  2.520000       1      2.520000  
+CKBD4              tcbn65gplustc
+                                  3.240000       1      3.240000  
+CKMUX2D2           tcbn65gplustc
+                                  3.960000       4     15.840000  
+CKND2              tcbn65gplustc
+                                  1.440000      10     14.400001  
+CKND2D0            tcbn65gplustc
+                                  1.440000     520    748.800030  
+CKND2D1            tcbn65gplustc
+                                  1.440000      42     60.480002  
+CKND2D2            tcbn65gplustc
+                                  2.520000      20     50.400000  
+CKND3              tcbn65gplustc
+                                  2.160000       1      2.160000  
+CKND16             tcbn65gplustc
+                                  7.920000       1      7.920000  
+CKXOR2D0           tcbn65gplustc
+                                  3.600000      68    244.799994  
+CKXOR2D1           tcbn65gplustc
+                                  3.600000       6     21.599999  
+DFQD1              tcbn65gplustc
+                                  6.840000      41    280.440006  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     717   6711.119754  n
+EDFQD2             tcbn65gplustc
+                                  9.720000       3     29.160001  n
+EDFQD4             tcbn65gplustc
+                                 10.800000      36    388.800007  n
+FA1D0              tcbn65gplustc
+                                  9.000000      13    117.000000  r
+FA1D1              tcbn65gplustc
+                                 10.080000      19    191.519999  r
+FA1D2              tcbn65gplustc
+                                 10.440000       1     10.440000  r
+HA1D0              tcbn65gplustc
+                                  5.760000       8     46.080002  r
+HA1D1              tcbn65gplustc
+                                  6.120000       2     12.240000  r
+IAO21D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IIND4D1            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D0             tcbn65gplustc
+                                  2.160000       6     12.960001  
+IND2D1             tcbn65gplustc
+                                  2.160000       2      4.320000  
+IND3D0             tcbn65gplustc
+                                  2.520000       1      2.520000  
+INR2D0             tcbn65gplustc
+                                  2.160000      75    162.000006  
+INR2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+INR2XD0            tcbn65gplustc
+                                  2.160000       1      2.160000  
+INVD0              tcbn65gplustc
+                                  1.080000     448    483.840019  
+INVD1              tcbn65gplustc
+                                  1.080000      55     59.400002  
+INVD2              tcbn65gplustc
+                                  1.440000       1      1.440000  
+INVD3              tcbn65gplustc
+                                  2.160000       2      4.320000  
+INVD4              tcbn65gplustc
+                                  2.520000       1      2.520000  
+INVD8              tcbn65gplustc
+                                  4.320000       3     12.960001  
+IOA21D0            tcbn65gplustc
+                                  2.520000     160    403.199997  
+IOA21D1            tcbn65gplustc
+                                  2.520000       4     10.080000  
+MAOI22D0           tcbn65gplustc
+                                  2.880000       2      5.760000  
+MAOI22D1           tcbn65gplustc
+                                  2.880000       5     14.400001  
+MAOI222D0          tcbn65gplustc
+                                  2.880000       9     25.920001  
+MAOI222D1          tcbn65gplustc
+                                  2.880000       3      8.640000  
+MOAI22D0           tcbn65gplustc
+                                  2.880000       1      2.880000  
+MUX2D2             tcbn65gplustc
+                                  3.960000       1      3.960000  
+MUX2D4             tcbn65gplustc
+                                  6.120000      12     73.439999  
+MUX2ND0            tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D0              tcbn65gplustc
+                                  1.440000       5      7.200000  
+ND2D1              tcbn65gplustc
+                                  1.440000      59     84.960003  
+ND2D2              tcbn65gplustc
+                                  2.520000      38     95.759999  
+ND2D3              tcbn65gplustc
+                                  3.240000       7     22.680000  
+ND2D4              tcbn65gplustc
+                                  4.320000      10     43.200002  
+ND3D1              tcbn65gplustc
+                                  2.160000       3      6.480000  
+ND3D2              tcbn65gplustc
+                                  3.240000      11     35.640000  
+ND3D3              tcbn65gplustc
+                                  4.680000       2      9.360000  
+NR2D0              tcbn65gplustc
+                                  1.440000     340    489.600019  
+NR2D1              tcbn65gplustc
+                                  1.440000      34     48.960002  
+NR2D2              tcbn65gplustc
+                                  2.520000      12     30.240000  
+NR2D3              tcbn65gplustc
+                                  3.240000       2      6.480000  
+NR2D4              tcbn65gplustc
+                                  4.320000       1      4.320000  
+NR2XD0             tcbn65gplustc
+                                  1.440000      27     38.880002  
+NR2XD1             tcbn65gplustc
+                                  2.520000      25     63.000000  
+NR2XD2             tcbn65gplustc
+                                  4.320000       3     12.960001  
+OA21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI21D0            tcbn65gplustc
+                                  2.160000      70    151.200006  
+OAI21D1            tcbn65gplustc
+                                  2.160000      28     60.480002  
+OAI21D2            tcbn65gplustc
+                                  3.240000       9     29.160000  
+OAI21D4            tcbn65gplustc
+                                  6.480000       1      6.480000  
+OAI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI22D1            tcbn65gplustc
+                                  2.520000       6     15.120000  
+OAI22D2            tcbn65gplustc
+                                  4.320000       1      4.320000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI211D0           tcbn65gplustc
+                                  2.520000       4     10.080000  
+OAI211D1           tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI211D2           tcbn65gplustc
+                                  4.320000       3     12.960001  
+OR2D0              tcbn65gplustc
+                                  2.160000      19     41.040002  
+OR2D1              tcbn65gplustc
+                                  2.160000       5     10.800000  
+TIEL               tcbn65gplustc
+                                  1.080000       1      1.080000  
+XNR2D0             tcbn65gplustc
+                                  3.600000     130    467.999988  
+XNR2D1             tcbn65gplustc
+                                  3.600000       6     21.599999  
+XNR2D4             tcbn65gplustc
+                                  7.560000       2     15.120000  
+XNR3D1             tcbn65gplustc
+                                  6.120000       1      6.120000  
+XNR3D2             tcbn65gplustc
+                                  7.920000       1      7.920000  
+XNR3D4             tcbn65gplustc
+                                 10.440000      10    104.399996  
+XOR2D0             tcbn65gplustc
+                                  3.600000      33    118.799997  
+XOR3D0             tcbn65gplustc
+                                  6.120000       4     24.480000  
+XOR3D2             tcbn65gplustc
+                                  6.840000       6     41.040001  
+fifo_depth16_bw1                407.519998       1    407.519998  h, n
+fifo_depth16_bw22              5087.160054       1   5087.160054  h, n
+sfp_div_radix4_exact_main_width22_0
+                              39873.960585       1  39873.960585  h, n
+sfp_div_radix4_exact_main_width22_1
+                              39875.400584       1  39875.400584  h, n
+sfp_div_radix4_exact_main_width22_2
+                              39864.960585       1  39864.960585  h, n
+sfp_div_radix4_exact_main_width22_3
+                              39876.480584       1  39876.480584  h, n
+sfp_div_radix4_exact_main_width22_4
+                              39867.840584       1  39867.840584  h, n
+sfp_div_radix4_exact_main_width22_5
+                              39873.960585       1  39873.960585  h, n
+sfp_div_radix4_exact_main_width22_6
+                              39871.080584       1  39871.080584  h, n
+sfp_div_radix4_exact_main_width22_7
+                              39894.840588       1  39894.840588  h, n
+-----------------------------------------------------------------------------
+Total 121 references                                338154.844614
+1
+ 
+****************************************
+Report : reference
+Design : sfp_optimized
+Version: K-2015.06-SP2
+Date   : Sat Mar 21 16:20:25 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+AN2D1              tcbn65gplustc
+                                  2.160000       2      4.320000  
+AN2D8              tcbn65gplustc
+                                  6.840000       1      6.840000  
+AN2XD1             tcbn65gplustc
+                                  2.160000       7     15.120001  
+AN4D0              tcbn65gplustc
+                                  2.880000       2      5.760000  
+AO21D1             tcbn65gplustc
+                                  2.520000       2      5.040000  
+AO22D0             tcbn65gplustc
+                                  2.880000     160    460.800018  
+AOI21D0            tcbn65gplustc
+                                  2.160000      42     90.720004  
+AOI21D1            tcbn65gplustc
+                                  2.160000      15     32.400001  
+AOI21D2            tcbn65gplustc
+                                  3.240000       3      9.720000  
+AOI21D4            tcbn65gplustc
+                                  6.480000       2     12.960000  
+AOI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI22D1            tcbn65gplustc
+                                  2.520000       3      7.560000  
+AOI22D2            tcbn65gplustc
+                                  4.320000       4     17.280001  
+AOI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI211D0           tcbn65gplustc
+                                  2.520000       4     10.080000  
+AOI211D1           tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI221D0           tcbn65gplustc
+                                  2.880000       3      8.640000  
+BUFFD1             tcbn65gplustc
+                                  1.440000       1      1.440000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       9     19.440001  
+BUFFD6             tcbn65gplustc
+                                  4.320000       4     17.280001  
+CKAN2D0            tcbn65gplustc
+                                  2.160000     456    984.960039  
+CKBD1              tcbn65gplustc
+                                  1.440000       9     12.960001  
+CKBD2              tcbn65gplustc
+                                  2.160000       1      2.160000  
+CKBD6              tcbn65gplustc
+                                  4.320000       1      4.320000  
+CKBD8              tcbn65gplustc
+                                  5.760000       2     11.520000  
+CKND2              tcbn65gplustc
+                                  1.440000      18     25.920001  
+CKND2D0            tcbn65gplustc
+                                  1.440000     367    528.480021  
+CKND2D1            tcbn65gplustc
+                                  1.440000      25     36.000001  
+CKND2D2            tcbn65gplustc
+                                  2.520000      28     70.559999  
+CKND2D8            tcbn65gplustc
+                                  7.920000       1      7.920000  
+CKND4              tcbn65gplustc
+                                  2.520000       1      2.520000  
+CKXOR2D0           tcbn65gplustc
+                                  3.600000     122    439.199988  
+CKXOR2D1           tcbn65gplustc
+                                  3.600000       9     32.399999  
+DFQD1              tcbn65gplustc
+                                  6.840000      41    280.440006  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     713   6673.679755  n
+EDFQD2             tcbn65gplustc
+                                  9.720000       4     38.880001  n
+EDFQD4             tcbn65gplustc
+                                 10.800000      39    421.200007  n
+FA1D0              tcbn65gplustc
+                                  9.000000      19    171.000000  r
+FA1D1              tcbn65gplustc
+                                 10.080000      15    151.199999  r
+FA1D2              tcbn65gplustc
+                                 10.440000       1     10.440000  r
+FA1D4              tcbn65gplustc
+                                 14.400000       1     14.400000  r
+HA1D0              tcbn65gplustc
+                                  5.760000      16     92.160004  r
+IAO21D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IIND4D1            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D0             tcbn65gplustc
+                                  2.160000       6     12.960001  
+IND2D1             tcbn65gplustc
+                                  2.160000       2      4.320000  
+IND3D1             tcbn65gplustc
+                                  2.520000       3      7.560000  
+INR2D0             tcbn65gplustc
+                                  2.160000     122    263.520010  
+INR2XD1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+INVD0              tcbn65gplustc
+                                  1.080000     409    441.720018  
+INVD1              tcbn65gplustc
+                                  1.080000      46     49.680002  
+INVD2              tcbn65gplustc
+                                  1.440000       2      2.880000  
+INVD3              tcbn65gplustc
+                                  2.160000       1      2.160000  
+INVD8              tcbn65gplustc
+                                  4.320000       1      4.320000  
+IOA21D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+IOA21D2            tcbn65gplustc
+                                  3.240000       3      9.720000  
+IOA21D4            tcbn65gplustc
+                                  5.400000       2     10.800000  
+MAOI22D0           tcbn65gplustc
+                                  2.880000       3      8.640000  
+MAOI22D1           tcbn65gplustc
+                                  2.880000       2      5.760000  
+MAOI222D0          tcbn65gplustc
+                                  2.880000      11     31.680001  
+MAOI222D1          tcbn65gplustc
+                                  2.880000       1      2.880000  
+MOAI22D0           tcbn65gplustc
+                                  2.880000       1      2.880000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+MUX2D4             tcbn65gplustc
+                                  6.120000       1      6.120000  
+ND2D0              tcbn65gplustc
+                                  1.440000      10     14.400001  
+ND2D1              tcbn65gplustc
+                                  1.440000      74    106.560004  
+ND2D2              tcbn65gplustc
+                                  2.520000      67    168.839999  
+ND2D3              tcbn65gplustc
+                                  3.240000       5     16.200000  
+ND2D4              tcbn65gplustc
+                                  4.320000       9     38.880002  
+ND2D8              tcbn65gplustc
+                                  7.920000       5     39.600000  
+ND3D1              tcbn65gplustc
+                                  2.160000       5     10.800000  
+ND3D2              tcbn65gplustc
+                                  3.240000      13     42.120000  
+ND3D3              tcbn65gplustc
+                                  4.680000       2      9.360000  
+ND4D1              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR2D0              tcbn65gplustc
+                                  1.440000     292    420.480017  
+NR2D1              tcbn65gplustc
+                                  1.440000      29     41.760002  
+NR2D2              tcbn65gplustc
+                                  2.520000      13     32.760000  
+NR2D3              tcbn65gplustc
+                                  3.240000       5     16.200000  
+NR2D4              tcbn65gplustc
+                                  4.320000       3     12.960001  
+NR2XD0             tcbn65gplustc
+                                  1.440000      23     33.120001  
+NR2XD1             tcbn65gplustc
+                                  2.520000      21     52.920000  
+NR2XD2             tcbn65gplustc
+                                  4.320000       3     12.960001  
+NR2XD3             tcbn65gplustc
+                                  6.120000       1      6.120000  
+NR2XD4             tcbn65gplustc
+                                  7.920000       1      7.920000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+NR3D1              tcbn65gplustc
+                                  3.240000       1      3.240000  
+OA21D1             tcbn65gplustc
+                                  2.520000       2      5.040000  
+OAI21D0            tcbn65gplustc
+                                  2.160000      62    133.920005  
+OAI21D1            tcbn65gplustc
+                                  2.160000      23     49.680002  
+OAI21D2            tcbn65gplustc
+                                  3.240000       9     29.160000  
+OAI21D4            tcbn65gplustc
+                                  6.480000       6     38.880000  
+OAI22D0            tcbn65gplustc
+                                  2.520000       2      5.040000  
+OAI22D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI22D2            tcbn65gplustc
+                                  4.320000       4     17.280001  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI211D0           tcbn65gplustc
+                                  2.520000       3      7.560000  
+OAI211D1           tcbn65gplustc
+                                  2.520000       2      5.040000  
+OR2D0              tcbn65gplustc
+                                  2.160000      16     34.560001  
+OR2D1              tcbn65gplustc
+                                  2.160000       3      6.480000  
+TIEL               tcbn65gplustc
+                                  1.080000       1      1.080000  
+XNR2D0             tcbn65gplustc
+                                  3.600000      94    338.399991  
+XNR2D1             tcbn65gplustc
+                                  3.600000       5     18.000000  
+XNR2D4             tcbn65gplustc
+                                  7.560000       1      7.560000  
+XNR3D4             tcbn65gplustc
+                                 10.440000      17    177.479993  
+XOR2D0             tcbn65gplustc
+                                  3.600000       1      3.600000  
+XOR2D2             tcbn65gplustc
+                                  3.960000       1      3.960000  
+XOR3D0             tcbn65gplustc
+                                  6.120000       3     18.360000  
+XOR3D1             tcbn65gplustc
+                                  6.120000       1      6.120000  
+XOR3D2             tcbn65gplustc
+                                  6.840000       5     34.200001  
+XOR3D4             tcbn65gplustc
+                                 10.440000       1     10.440000  
+fifo_depth16_bw1                407.879998       1    407.879998  h, n
+fifo_depth16_bw22              5289.480104       1   5289.480104  h, n
+sfp_div_radix4_exact_main_width22_0
+                              39382.560548       1  39382.560548  h, n
+sfp_div_radix4_exact_main_width22_1
+                              39394.440549       1  39394.440549  h, n
+sfp_div_radix4_exact_main_width22_2
+                              39376.800548       1  39376.800548  h, n
+sfp_div_radix4_exact_main_width22_3
+                              39397.320551       1  39397.320551  h, n
+sfp_div_radix4_exact_main_width22_4
+                              39391.920548       1  39391.920548  h, n
+sfp_div_radix4_exact_main_width22_5
+                              39393.720546       1  39393.720546  h, n
+sfp_div_radix4_exact_main_width22_6
+                              39411.360548       1  39411.360548  h, n
+sfp_div_radix4_exact_main_width22_7
+                              39415.680550       1  39415.680550  h, n
+-----------------------------------------------------------------------------
+Total 122 references                                334541.884392
+1

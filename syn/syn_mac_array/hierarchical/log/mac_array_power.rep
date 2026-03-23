@@ -1,0 +1,152 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : mac_array
+Version: K-2015.06-SP2
+Date   : Sun Mar 15 13:23:09 2026
+****************************************
+
+
+Library(s) Used:
+
+    tcbn65gpluswc (File: /home/linux/ieng6/ECE260B_WI26_A00/public/PDKdata/db/tcbn65gpluswc.db)
+
+
+Operating Conditions: WCCOM   Library: tcbn65gpluswc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mac_array              ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id1
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id2
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id3
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id4
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id5
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id6
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id7
+                       ZeroWireload      tcbn65gpluswc
+mac_col_bw8_bw_psum22_pr8_col_id8
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_7
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_6
+                       ZeroWireload      tcbn65gpluswc
+mult_8in_63            ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_0
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_1
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_2
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_3
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_4
+                       ZeroWireload      tcbn65gpluswc
+mac_8in_bw8_bw_psum22_pr8_5
+                       ZeroWireload      tcbn65gpluswc
+mult_8in_0             ZeroWireload      tcbn65gpluswc
+mult_8in_1             ZeroWireload      tcbn65gpluswc
+mult_8in_2             ZeroWireload      tcbn65gpluswc
+mult_8in_3             ZeroWireload      tcbn65gpluswc
+mult_8in_4             ZeroWireload      tcbn65gpluswc
+mult_8in_5             ZeroWireload      tcbn65gpluswc
+mult_8in_6             ZeroWireload      tcbn65gpluswc
+mult_8in_7             ZeroWireload      tcbn65gpluswc
+mult_8in_8             ZeroWireload      tcbn65gpluswc
+mult_8in_9             ZeroWireload      tcbn65gpluswc
+mult_8in_10            ZeroWireload      tcbn65gpluswc
+mult_8in_11            ZeroWireload      tcbn65gpluswc
+mult_8in_12            ZeroWireload      tcbn65gpluswc
+mult_8in_13            ZeroWireload      tcbn65gpluswc
+mult_8in_14            ZeroWireload      tcbn65gpluswc
+mult_8in_15            ZeroWireload      tcbn65gpluswc
+mult_8in_16            ZeroWireload      tcbn65gpluswc
+mult_8in_17            ZeroWireload      tcbn65gpluswc
+mult_8in_18            ZeroWireload      tcbn65gpluswc
+mult_8in_19            ZeroWireload      tcbn65gpluswc
+mult_8in_20            ZeroWireload      tcbn65gpluswc
+mult_8in_21            ZeroWireload      tcbn65gpluswc
+mult_8in_22            ZeroWireload      tcbn65gpluswc
+mult_8in_23            ZeroWireload      tcbn65gpluswc
+mult_8in_24            ZeroWireload      tcbn65gpluswc
+mult_8in_25            ZeroWireload      tcbn65gpluswc
+mult_8in_26            ZeroWireload      tcbn65gpluswc
+mult_8in_27            ZeroWireload      tcbn65gpluswc
+mult_8in_28            ZeroWireload      tcbn65gpluswc
+mult_8in_29            ZeroWireload      tcbn65gpluswc
+mult_8in_30            ZeroWireload      tcbn65gpluswc
+mult_8in_31            ZeroWireload      tcbn65gpluswc
+mult_8in_32            ZeroWireload      tcbn65gpluswc
+mult_8in_33            ZeroWireload      tcbn65gpluswc
+mult_8in_34            ZeroWireload      tcbn65gpluswc
+mult_8in_35            ZeroWireload      tcbn65gpluswc
+mult_8in_36            ZeroWireload      tcbn65gpluswc
+mult_8in_37            ZeroWireload      tcbn65gpluswc
+mult_8in_38            ZeroWireload      tcbn65gpluswc
+mult_8in_39            ZeroWireload      tcbn65gpluswc
+mult_8in_40            ZeroWireload      tcbn65gpluswc
+mult_8in_41            ZeroWireload      tcbn65gpluswc
+mult_8in_42            ZeroWireload      tcbn65gpluswc
+mult_8in_43            ZeroWireload      tcbn65gpluswc
+mult_8in_44            ZeroWireload      tcbn65gpluswc
+mult_8in_45            ZeroWireload      tcbn65gpluswc
+mult_8in_46            ZeroWireload      tcbn65gpluswc
+mult_8in_47            ZeroWireload      tcbn65gpluswc
+mult_8in_48            ZeroWireload      tcbn65gpluswc
+mult_8in_49            ZeroWireload      tcbn65gpluswc
+mult_8in_50            ZeroWireload      tcbn65gpluswc
+mult_8in_51            ZeroWireload      tcbn65gpluswc
+mult_8in_52            ZeroWireload      tcbn65gpluswc
+mult_8in_53            ZeroWireload      tcbn65gpluswc
+mult_8in_54            ZeroWireload      tcbn65gpluswc
+mult_8in_55            ZeroWireload      tcbn65gpluswc
+mult_8in_56            ZeroWireload      tcbn65gpluswc
+mult_8in_57            ZeroWireload      tcbn65gpluswc
+mult_8in_58            ZeroWireload      tcbn65gpluswc
+mult_8in_59            ZeroWireload      tcbn65gpluswc
+mult_8in_60            ZeroWireload      tcbn65gpluswc
+mult_8in_61            ZeroWireload      tcbn65gpluswc
+mult_8in_62            ZeroWireload      tcbn65gpluswc
+
+
+Global Operating Voltage = 0.9  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  57.0798 mW   (98%)
+  Net Switching Power  =   1.3296 mW    (2%)
+                         ---------
+Total Dynamic Power    =  58.4095 mW  (100%)
+
+Cell Leakage Power     = 965.3224 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register          56.4819            0.3097        4.1804e+05           57.2099  (  96.35%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.5979            1.0199        5.4728e+05            2.1651  (   3.65%)
+--------------------------------------------------------------------------------------------------
+Total             57.0798 mW         1.3296 mW     9.6532e+05 nW        59.3749 mW
+1

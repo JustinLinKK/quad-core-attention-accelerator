@@ -1,0 +1,50 @@
+
+set clock_cycle 2
+set io_delay 0.2
+
+set clock_port clk
+
+
+create_clock -name clk -period $clock_cycle [get_ports $clock_port]
+set_clock_uncertainty 0.05 [get_clocks clk]
+
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {reset}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cfg_core_enable_mask[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cfg_multi_core_inst[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cfg_group_link[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cfg_sfp_acc_inst[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cfg_sfp_div_inst[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {load_start}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {load_is_q}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {load_core_mask[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {load_len[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {load_base[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {run_start}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {run_q_len[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {run_k_len[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {core_agent_busy[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_ready}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_req_ready}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_rsp_valid}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_rsp_core_zero[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_rsp_core_one[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_rsp_core_two[*]}]
+set_input_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_rsp_core_three[*]}]
+
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {busy}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {done}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_valid}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_core_mask[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_payload_core_zero[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_payload_core_one[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_payload_core_two[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {cmd_payload_core_three[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_req_valid}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {spad_rd_addr[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {multi_core_inst[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {core_enable_mask[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {group_link[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {sfp_acc_inst[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {sfp_div_inst[*]}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {ext_sum_wr}]
+set_output_delay -clock [get_clocks clk] -add_delay -max $io_delay [get_ports {sum_in[*]}]

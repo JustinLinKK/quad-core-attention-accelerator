@@ -1,0 +1,126 @@
+ 
+****************************************
+Report : area
+Design : sfp_optimized
+Version: K-2015.06-SP2
+Date   : Sat Mar 21 15:52:46 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'sfp_optimized' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    tcbn65gplustc (File: /home/linux/ieng6/ECE260B_WI26_A00/public/PDKdata/db/tcbn65gplustc.db)
+
+Number of ports:                         2952
+Number of nets:                         84590
+Number of cells:                        81436
+Number of combinational cells:          53772
+Number of sequential cells:             27618
+Number of macros/black boxes:               0
+Number of buf/inv:                      12740
+Number of references:                     116
+
+Combinational area:             110643.482570
+Buf/Inv area:                    14220.360544
+Noncombinational area:          219427.201838
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                330070.684409
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  -------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-    Black-
+                                  Total        Total    national     national     boxes   Design
+--------------------------------  -----------  -------  -----------  -----------  ------  -----------------------------------
+sfp_optimized                     330070.6844    100.0    6069.6001    6944.3998  0.0000  sfp_optimized
+b2_skip_fifo_storage                 407.5200      0.1     139.3200     219.6000  0.0000  fifo_depth16_bw1
+b2_skip_fifo_storage/fifo_mux_16_1a
+                                      48.6000      0.0       0.0000       0.0000  0.0000  fifo_mux_16_1_bw1_simd1
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_2_1a
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_14
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a
+                                      22.6800      0.0       0.0000       0.0000  0.0000  fifo_mux_8_1_bw1_simd1_1
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1a
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_13
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1b
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_12
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1c
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_11
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1d
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_10
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1e
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_9
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1f
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_8
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1g
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_7
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b
+                                      22.6800      0.0       0.0000       0.0000  0.0000  fifo_mux_8_1_bw1_simd1_0
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1a
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_6
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1b
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_5
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1c
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_4
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1d
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_3
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1e
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_2
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1f
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_1
+b2_skip_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1g
+                                       3.2400      0.0       3.2400       0.0000  0.0000  fifo_mux_2_1_bw1_simd1_0
+denom_fifo_storage                  4938.8400      1.5    1197.7200    2541.6000  0.0000  fifo_depth16_bw22
+denom_fifo_storage/fifo_mux_16_1a   1199.5200      0.4       7.9200       0.0000  0.0000  fifo_mux_16_1_bw22_simd1
+denom_fifo_storage/fifo_mux_16_1a/mux_2_1a
+                                      84.6000      0.0      84.6000       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_14
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a
+                                     555.1200      0.2      10.4400       0.0000  0.0000  fifo_mux_8_1_bw22_simd1_1
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1a
+                                      80.2800      0.0      80.2800       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_13
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1b
+                                      80.2800      0.0      80.2800       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_12
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1c
+                                      79.2000      0.0      79.2000       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_11
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1d
+                                      79.2000      0.0      79.2000       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_10
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1e
+                                      73.4400      0.0      73.4400       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_9
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1f
+                                      73.4400      0.0      73.4400       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_8
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1a/fifo_mux_2_1g
+                                      78.8400      0.0      78.8400       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_7
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b
+                                     551.8800      0.2      10.4400       0.0000  0.0000  fifo_mux_8_1_bw22_simd1_0
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1a
+                                      79.2000      0.0      79.2000       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_6
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1b
+                                      80.2800      0.0      80.2800       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_5
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1c
+                                      79.2000      0.0      79.2000       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_4
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1d
+                                      79.2000      0.0      79.2000       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_3
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1e
+                                      73.0800      0.0      73.0800       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_2
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1f
+                                      73.4400      0.0      73.4400       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_1
+denom_fifo_storage/fifo_mux_16_1a/mux_8_1b/fifo_mux_2_1g
+                                      77.0400      0.0      77.0400       0.0000  0.0000  fifo_mux_2_1_bw22_simd1_0
+div0                               38960.2806     11.8   12745.0803   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_7
+div1                               38970.3606     11.8   12755.1603   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_6
+div2                               38957.4006     11.8   12742.2003   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_5
+div3                               38955.9606     11.8   12740.7603   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_4
+div4                               38982.6006     11.8   12767.4003   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_3
+div5                               38956.3206     11.8   12741.1203   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_2
+div6                               38973.9606     11.8   12758.7603   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_1
+div7                               38953.4406     11.8   12738.2403   26215.2003  0.0000  sfp_div_radix4_exact_main_width22_0
+--------------------------------  -----------  -------  -----------  -----------  ------  -----------------------------------
+Total                                                   110643.4826  219427.2018  0.0000
+
+1

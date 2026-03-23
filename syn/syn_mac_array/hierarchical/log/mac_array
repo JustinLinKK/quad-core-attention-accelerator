@@ -1,0 +1,197 @@
+ 
+****************************************
+Report : area
+Design : mac_array
+Version: K-2015.06-SP2
+Date   : Sun Mar 15 13:23:03 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'mac_array' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    tcbn65gpluswc (File: /home/linux/ieng6/ECE260B_WI26_A00/public/PDKdata/db/tcbn65gpluswc.db)
+
+Number of ports:                         4988
+Number of nets:                         43485
+Number of cells:                        37539
+Number of combinational cells:          30674
+Number of sequential cells:              6785
+Number of macros/black boxes:               0
+Number of buf/inv:                       5370
+Number of references:                      17
+
+Combinational area:              72136.081023
+Buf/Inv area:                     6050.880233
+Noncombinational area:           69089.041255
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                141225.122278
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black-
+                                  Total        Total    national    national    boxes   Design
+--------------------------------  -----------  -------  ----------  ----------  ------  ---------------------------------
+mac_array                         141225.1223    100.0    597.6000   1710.0000  0.0000  mac_array
+col_idx_1__mac_col_inst            17489.8803     12.4    813.2400   1010.8800  0.0000  mac_col_bw8_bw_psum22_pr8_col_id1
+col_idx_1__mac_col_inst/mac_8in_instance
+                                   15665.7602     11.1   1431.0000   3189.2401  0.0000  mac_8in_bw8_bw_psum22_pr8_7
+col_idx_1__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1378.4400      1.0    842.7600    535.6800  0.0000  mult_8in_63
+col_idx_1__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1383.1200      1.0    847.8000    535.3200  0.0000  mult_8in_62
+col_idx_1__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1393.5600      1.0    854.2800    539.2800  0.0000  mult_8in_61
+col_idx_1__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1378.8000      1.0    843.4800    535.3200  0.0000  mult_8in_60
+col_idx_1__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1377.7200      1.0    840.6000    537.1200  0.0000  mult_8in_59
+col_idx_1__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1382.0400      1.0    848.1600    533.8800  0.0000  mult_8in_58
+col_idx_1__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1377.7200      1.0    843.4800    534.2400  0.0000  mult_8in_57
+col_idx_1__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1374.1200      1.0    840.2400    533.8800  0.0000  mult_8in_56
+col_idx_2__mac_col_inst            17468.2803     12.4    772.2000   1011.2400  0.0000  mac_col_bw8_bw_psum22_pr8_col_id2
+col_idx_2__mac_col_inst/mac_8in_instance
+                                   15684.8402     11.1   1425.2400   3189.9601  0.0000  mac_8in_bw8_bw_psum22_pr8_6
+col_idx_2__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1377.0000      1.0    840.9600    536.0400  0.0000  mult_8in_55
+col_idx_2__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1362.2400      1.0    828.0000    534.2400  0.0000  mult_8in_54
+col_idx_2__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1402.5600      1.0    863.6400    538.9200  0.0000  mult_8in_53
+col_idx_2__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1382.7600      1.0    847.4400    535.3200  0.0000  mult_8in_52
+col_idx_2__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1391.4000      1.0    859.3200    532.0800  0.0000  mult_8in_51
+col_idx_2__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1379.8800      1.0    848.1600    531.7200  0.0000  mult_8in_50
+col_idx_2__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1388.5200      1.0    853.2000    535.3200  0.0000  mult_8in_49
+col_idx_2__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1385.2800      1.0    849.9600    535.3200  0.0000  mult_8in_48
+col_idx_3__mac_col_inst            17433.3603     12.3    767.1600   1010.8800  0.0000  mac_col_bw8_bw_psum22_pr8_col_id3
+col_idx_3__mac_col_inst/mac_8in_instance
+                                   15655.3202     11.1   1432.4400   3197.5201  0.0000  mac_8in_bw8_bw_psum22_pr8_5
+col_idx_3__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1374.8400      1.0    846.7200    528.1200  0.0000  mult_8in_47
+col_idx_3__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1389.6000      1.0    856.0800    533.5200  0.0000  mult_8in_46
+col_idx_3__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1381.3200      1.0    842.4000    538.9200  0.0000  mult_8in_45
+col_idx_3__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1380.2400      1.0    846.7200    533.5200  0.0000  mult_8in_44
+col_idx_3__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1382.4000      1.0    848.8800    533.5200  0.0000  mult_8in_43
+col_idx_3__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1379.5200      1.0    846.0000    533.5200  0.0000  mult_8in_42
+col_idx_3__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1378.8000      1.0    843.4800    535.3200  0.0000  mult_8in_41
+col_idx_3__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1358.6400      1.0    824.4000    534.2400  0.0000  mult_8in_40
+col_idx_4__mac_col_inst            17460.7203     12.4    772.5600   1010.8800  0.0000  mac_col_bw8_bw_psum22_pr8_col_id4
+col_idx_4__mac_col_inst/mac_8in_instance
+                                   15677.2802     11.1   1431.0000   3192.1201  0.0000  mac_8in_bw8_bw_psum22_pr8_4
+col_idx_4__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1375.2000      1.0    839.8800    535.3200  0.0000  mult_8in_39
+col_idx_4__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1379.1600      1.0    845.6400    533.5200  0.0000  mult_8in_38
+col_idx_4__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1381.6800      1.0    848.1600    533.5200  0.0000  mult_8in_37
+col_idx_4__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1377.7200      1.0    844.2000    533.5200  0.0000  mult_8in_36
+col_idx_4__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1380.9600      1.0    846.0000    534.9600  0.0000  mult_8in_35
+col_idx_4__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1384.5600      1.0    849.2400    535.3200  0.0000  mult_8in_34
+col_idx_4__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1397.5200      1.0    862.2000    535.3200  0.0000  mult_8in_33
+col_idx_4__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1377.3600      1.0    841.6800    535.6800  0.0000  mult_8in_32
+col_idx_5__mac_col_inst            17484.8403     12.4    787.6800   1010.5200  0.0000  mac_col_bw8_bw_psum22_pr8_col_id5
+col_idx_5__mac_col_inst/mac_8in_instance
+                                   15686.6402     11.1   1430.2800   3190.6801  0.0000  mac_8in_bw8_bw_psum22_pr8_3
+col_idx_5__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1387.0800      1.0    852.8400    534.2400  0.0000  mult_8in_31
+col_idx_5__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1386.0000      1.0    847.0800    538.9200  0.0000  mult_8in_30
+col_idx_5__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1367.2800      1.0    835.2000    532.0800  0.0000  mult_8in_29
+col_idx_5__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1378.8000      1.0    838.8000    540.0000  0.0000  mult_8in_28
+col_idx_5__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1390.6800      1.0    858.6000    532.0800  0.0000  mult_8in_27
+col_idx_5__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1384.5600      1.0    854.2800    530.2800  0.0000  mult_8in_26
+col_idx_5__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1382.7600      1.0    847.0800    535.6800  0.0000  mult_8in_25
+col_idx_5__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1388.5200      1.0    855.0000    533.5200  0.0000  mult_8in_24
+col_idx_6__mac_col_inst            17498.1603     12.4    783.3600   1011.2400  0.0000  mac_col_bw8_bw_psum22_pr8_col_id6
+col_idx_6__mac_col_inst/mac_8in_instance
+                                   15703.5602     11.1   1425.6000   3195.3601  0.0000  mac_8in_bw8_bw_psum22_pr8_2
+col_idx_6__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1384.2000      1.0    848.5200    535.6800  0.0000  mult_8in_23
+col_idx_6__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1379.1600      1.0    849.2400    529.9200  0.0000  mult_8in_22
+col_idx_6__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1385.2800      1.0    851.7600    533.5200  0.0000  mult_8in_21
+col_idx_6__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1382.4000      1.0    848.5200    533.8800  0.0000  mult_8in_20
+col_idx_6__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1377.0000      1.0    840.9600    536.0400  0.0000  mult_8in_19
+col_idx_6__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1402.9200      1.0    874.8000    528.1200  0.0000  mult_8in_18
+col_idx_6__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1396.0800      1.0    860.7600    535.3200  0.0000  mult_8in_17
+col_idx_6__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1375.5600      1.0    839.8800    535.6800  0.0000  mult_8in_16
+col_idx_7__mac_col_inst            17380.4403     12.3    780.8400   1011.9600  0.0000  mac_col_bw8_bw_psum22_pr8_col_id7
+col_idx_7__mac_col_inst/mac_8in_instance
+                                   15587.6402     11.0   1430.2800   3173.0401  0.0000  mac_8in_bw8_bw_psum22_pr8_1
+col_idx_7__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1379.5200      1.0    844.2000    535.3200  0.0000  mult_8in_15
+col_idx_7__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1373.4000      1.0    836.2800    537.1200  0.0000  mult_8in_14
+col_idx_7__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1361.5200      1.0    828.0000    533.5200  0.0000  mult_8in_13
+col_idx_7__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1378.4400      1.0    847.4400    531.0000  0.0000  mult_8in_12
+col_idx_7__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1369.4400      1.0    834.1200    535.3200  0.0000  mult_8in_11
+col_idx_7__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1370.5200      1.0    834.8400    535.6800  0.0000  mult_8in_10
+col_idx_7__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1376.2800      1.0    844.5600    531.7200  0.0000  mult_8in_9
+col_idx_7__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1375.2000      1.0    836.2800    538.9200  0.0000  mult_8in_8
+col_idx_8__mac_col_inst            16701.8403     11.8    428.4000    567.3600  0.0000  mac_col_bw8_bw_psum22_pr8_col_id8
+col_idx_8__mac_col_inst/mac_8in_instance
+                                   15706.0802     11.1   1418.4000   3183.8401  0.0000  mac_8in_bw8_bw_psum22_pr8_0
+col_idx_8__mac_col_inst/mac_8in_instance/mult0_inst
+                                    1379.5200      1.0    842.0400    537.4800  0.0000  mult_8in_7
+col_idx_8__mac_col_inst/mac_8in_instance/mult1_inst
+                                    1390.6800      1.0    853.5600    537.1200  0.0000  mult_8in_6
+col_idx_8__mac_col_inst/mac_8in_instance/mult2_inst
+                                    1374.4800      1.0    839.1600    535.3200  0.0000  mult_8in_5
+col_idx_8__mac_col_inst/mac_8in_instance/mult3_inst
+                                    1396.0800      1.0    858.2400    537.8400  0.0000  mult_8in_4
+col_idx_8__mac_col_inst/mac_8in_instance/mult4_inst
+                                    1403.6400      1.0    864.7200    538.9200  0.0000  mult_8in_3
+col_idx_8__mac_col_inst/mac_8in_instance/mult5_inst
+                                    1390.6800      1.0    860.7600    529.9200  0.0000  mult_8in_2
+col_idx_8__mac_col_inst/mac_8in_instance/mult6_inst
+                                    1390.3200      1.0    853.2000    537.1200  0.0000  mult_8in_1
+col_idx_8__mac_col_inst/mac_8in_instance/mult7_inst
+                                    1378.4400      1.0    844.9200    533.5200  0.0000  mult_8in_0
+--------------------------------  -----------  -------  ----------  ----------  ------  ---------------------------------
+Total                                                   72136.0810  69089.0413  0.0000
+
+1

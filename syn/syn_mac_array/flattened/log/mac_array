@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : mac_array
+Version: K-2015.06-SP2
+Date   : Thu Mar 19 22:03:56 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'mac_array' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    tcbn65gpluswc (File: /home/linux/ieng6/ECE260B_WI26_A00/public/PDKdata/db/tcbn65gpluswc.db)
+
+Number of ports:                          252
+Number of nets:                         39639
+Number of cells:                        38548
+Number of combinational cells:          31763
+Number of sequential cells:              6785
+Number of macros/black boxes:               0
+Number of buf/inv:                       5746
+Number of references:                     172
+
+Combinational area:              71952.840937
+Buf/Inv area:                     6455.520250
+Noncombinational area:           71323.560740
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                143276.401677
+Total area:                 undefined
+1

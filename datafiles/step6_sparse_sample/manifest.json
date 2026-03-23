@@ -1,0 +1,35 @@
+{
+  "seed": 2606,
+  "shape": {
+    "tiles": 1,
+    "rows": 8,
+    "cols": 8,
+    "pr": 8,
+    "bw": 8
+  },
+  "ranges": {
+    "q_limit": 12,
+    "k_limit": 10,
+    "v_limit": 11
+  },
+  "distribution": {
+    "q_zero_prob": 0.15,
+    "k_zero_prob": 0.15,
+    "v_zero_prob": 0.1,
+    "low_row_prob": 0.3
+  },
+  "b1": {
+    "target_percentile": 70.0,
+    "threshold_fp": 57.19999694824219,
+    "threshold_int": 58,
+    "actual_keep_ratio": 0.296875,
+    "actual_skip_ratio": 0.703125
+  },
+  "b2": {
+    "target_percentile": 30.0,
+    "threshold_fp": 193.3000030517578,
+    "threshold_int": 194,
+    "actual_keep_ratio": 0.625,
+    "actual_skip_ratio": 0.375
+  }
+}

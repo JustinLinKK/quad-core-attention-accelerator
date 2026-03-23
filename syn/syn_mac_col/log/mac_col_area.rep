@@ -1,0 +1,1111 @@
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 19:46:34 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       1      2.520000  
+CKBD1              tcbn65gplustc
+                                  1.440000       5      7.200000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000      46     99.360004  
+INR2D2             tcbn65gplustc
+                                  2.880000      49    141.120006  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     20664.360263       1  20664.360263  h, n
+-----------------------------------------------------------------------------
+Total 23 references                                 22560.840239
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 20:30:55 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       3      6.480000  
+CKBD1              tcbn65gplustc
+                                  1.440000       4      5.760000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000      26     56.160002  
+INR2D2             tcbn65gplustc
+                                  2.880000      69    198.720008  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     12990.960183       1  12990.960183  h, n
+-----------------------------------------------------------------------------
+Total 23 references                                 14904.360161
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 20:31:58 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       3      6.480000  
+CKBD1              tcbn65gplustc
+                                  1.440000       4      5.760000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000      26     56.160002  
+INR2D2             tcbn65gplustc
+                                  2.880000      69    198.720008  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     12990.960183       1  12990.960183  h, n
+-----------------------------------------------------------------------------
+Total 23 references                                 14904.360161
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 20:34:30 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       4      8.640000  
+BUFFD4             tcbn65gplustc
+                                  3.240000       1      3.240000  
+BUFFD8             tcbn65gplustc
+                                  5.760000       1      5.760000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000      43     92.880004  
+INR2D2             tcbn65gplustc
+                                  2.880000      52    149.760006  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D3              tcbn65gplustc
+                                  3.240000       1      3.240000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     13034.160186       1  13034.160186  h, n
+-----------------------------------------------------------------------------
+Total 24 references                                 14941.440163
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 21:02:41 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       2      4.320000  
+BUFFD4             tcbn65gplustc
+                                  3.240000       1      3.240000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       1      4.320000  
+BUFFD8             tcbn65gplustc
+                                  5.760000       1      5.760000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000      37     79.920003  
+INR2D2             tcbn65gplustc
+                                  2.880000      58    167.040007  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D3              tcbn65gplustc
+                                  3.240000       1      3.240000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     12941.280193       1  12941.280193  h, n
+-----------------------------------------------------------------------------
+Total 25 references                                 14852.880170
+1
+Warning: Design 'mac_col' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 23:39:21 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+**SEQGEN**                        0.000000     147      0.000000  n, u
+*ADD_UNS_OP_4_1_4                 0.000000       1      0.000000  s, u
+*SELECT_OP_2.1_2.1_1              0.000000       6      0.000000  s, u
+*SELECT_OP_2.2_2.1_2              0.000000       1      0.000000  s, u
+*SELECT_OP_2.4_2.1_4              0.000000       3      0.000000  s, u
+*SELECT_OP_2.5_2.1_5              0.000000       1      0.000000  s, u
+*SELECT_OP_2.22_2.1_22            0.000000       1      0.000000  s, u
+*SELECT_OP_2.64_2.1_64            0.000000       4      0.000000  s, u
+*SELECT_OP_3.1_3.1_1              0.000000       6      0.000000  s, u
+GTECH_AND2         gtech          0.000000       8      0.000000  u
+GTECH_BUF          gtech          0.000000      11      0.000000  u
+GTECH_NOT          gtech          0.000000      12      0.000000  u
+GTECH_OR2          gtech          0.000000       8      0.000000  u
+mac_8in_bw8_bw_psum22_pr8         0.000000       1      0.000000  b, h, n, u
+-----------------------------------------------------------------------------
+Total 14 references                                     0.000000
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 23:44:08 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+**SEQGEN**                        0.000000     147      0.000000  n, u
+*ADD_UNS_OP_4_1_4                 0.000000       1      0.000000  s, u
+*SELECT_OP_2.1_2.1_1              0.000000       6      0.000000  s, u
+*SELECT_OP_2.2_2.1_2              0.000000       1      0.000000  s, u
+*SELECT_OP_2.4_2.1_4              0.000000       3      0.000000  s, u
+*SELECT_OP_2.5_2.1_5              0.000000       1      0.000000  s, u
+*SELECT_OP_2.22_2.1_22            0.000000       1      0.000000  s, u
+*SELECT_OP_2.64_2.1_64            0.000000       4      0.000000  s, u
+*SELECT_OP_3.1_3.1_1              0.000000       6      0.000000  s, u
+GTECH_AND2         gtech          0.000000       8      0.000000  u
+GTECH_BUF          gtech          0.000000      11      0.000000  u
+GTECH_NOT          gtech          0.000000      12      0.000000  u
+GTECH_OR2          gtech          0.000000       8      0.000000  u
+mac_8in_bw8_bw_psum22_pr8         0.000000       1      0.000000  h, n, u
+-----------------------------------------------------------------------------
+Total 14 references                                     0.000000
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Fri Feb 27 23:45:05 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       2      4.320000  
+BUFFD8             tcbn65gplustc
+                                  5.760000       1      5.760000  
+BUFFD16            tcbn65gplustc
+                                 10.440000       1     10.440000  
+CKBD1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000      15     32.400001  
+INR2D2             tcbn65gplustc
+                                  2.880000      80    230.400009  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D2            tcbn65gplustc
+                                  3.240000       1      3.240000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     13164.840203       1  13164.840203  h, n
+-----------------------------------------------------------------------------
+Total 25 references                                 15099.840181
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 00:11:33 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       2      4.320000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       3      7.560000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       1      4.320000  
+BUFFD16            tcbn65gplustc
+                                 10.440000       1     10.440000  
+DFQD1              tcbn65gplustc
+                                  6.840000       9     61.560001  n
+DFQD2              tcbn65gplustc
+                                  7.200000       3     21.599999  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D4             tcbn65gplustc
+                                  5.760000       1      5.760000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      65    187.200007  
+INR2XD2            tcbn65gplustc
+                                  4.680000      21     98.279996  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D2            tcbn65gplustc
+                                  3.240000       1      3.240000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     13786.200233       1  13786.200233  h, n
+-----------------------------------------------------------------------------
+Total 27 references                                 15769.800203
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 01:35:10 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       4      8.640000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       1      4.320000  
+BUFFD8             tcbn65gplustc
+                                  5.760000       1      5.760000  
+BUFFD16            tcbn65gplustc
+                                 10.440000       2     20.879999  
+CKBD1              tcbn65gplustc
+                                  1.440000       2      2.880000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      54    155.520006  
+INR2XD2            tcbn65gplustc
+                                  4.680000      32    149.759995  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     15271.920257       1  15271.920257  h, n
+-----------------------------------------------------------------------------
+Total 27 references                                 17285.400225
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 01:36:32 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       4      8.640000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       2      5.040000  
+BUFFD4             tcbn65gplustc
+                                  3.240000       1      3.240000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D2             tcbn65gplustc
+                                  2.880000       1      2.880000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      86    247.680010  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     14186.160210       1  14186.160210  h, n
+-----------------------------------------------------------------------------
+Total 24 references                                 16117.200187
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 01:40:30 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       3      6.480000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       2      5.040000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       1      4.320000  
+BUFFD8             tcbn65gplustc
+                                  5.760000       1      5.760000  
+CKBD1              tcbn65gplustc
+                                  1.440000       1      1.440000  
+DFQD1              tcbn65gplustc
+                                  6.840000      11     75.240002  n
+DFQD2              tcbn65gplustc
+                                  7.200000       1      7.200000  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     134   1254.239954  n
+EDFQD2             tcbn65gplustc
+                                  9.720000       1      9.720000  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D4             tcbn65gplustc
+                                  5.760000       1      5.760000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      86    247.680010  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     14794.200201       1  14794.200201  h, n
+-----------------------------------------------------------------------------
+Total 28 references                                 16734.960180
+1
+Warning: Design 'mac_col' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 01:51:49 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+**SEQGEN**                        0.000000     147      0.000000  n, u
+*ADD_UNS_OP_4_1_4                 0.000000       1      0.000000  s, u
+*SELECT_OP_2.1_2.1_1              0.000000       6      0.000000  s, u
+*SELECT_OP_2.2_2.1_2              0.000000       1      0.000000  s, u
+*SELECT_OP_2.4_2.1_4              0.000000       3      0.000000  s, u
+*SELECT_OP_2.5_2.1_5              0.000000       1      0.000000  s, u
+*SELECT_OP_2.22_2.1_22            0.000000       1      0.000000  s, u
+*SELECT_OP_2.64_2.1_64            0.000000       4      0.000000  s, u
+*SELECT_OP_3.1_3.1_1              0.000000       6      0.000000  s, u
+GTECH_AND2         gtech          0.000000       8      0.000000  u
+GTECH_BUF          gtech          0.000000      11      0.000000  u
+GTECH_NOT          gtech          0.000000      12      0.000000  u
+GTECH_OR2          gtech          0.000000       8      0.000000  u
+mac_8in                           0.000000       1      0.000000  b
+-----------------------------------------------------------------------------
+Total 14 references                                     0.000000
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 01:53:45 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       4      8.640000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       1      2.520000  
+BUFFD4             tcbn65gplustc
+                                  3.240000       1      3.240000  
+BUFFD16            tcbn65gplustc
+                                 10.440000       1     10.440000  
+CKBD1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      86    247.680010  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     13398.480199       1  13398.480199  h, n
+-----------------------------------------------------------------------------
+Total 26 references                                 15341.040177
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sat Feb 28 01:54:55 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AN2XD1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+AO21D1             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AO22D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       2      4.320000  
+BUFFD3             tcbn65gplustc
+                                  2.520000       1      2.520000  
+BUFFD4             tcbn65gplustc
+                                  3.240000       1      3.240000  
+BUFFD6             tcbn65gplustc
+                                  4.320000       2      8.640000  
+BUFFD16            tcbn65gplustc
+                                 10.440000       1     10.440000  
+CKBD1              tcbn65gplustc
+                                  1.440000       1      1.440000  
+DFQD1              tcbn65gplustc
+                                  6.840000      10     68.400002  n
+DFQD2              tcbn65gplustc
+                                  7.200000       2     14.400000  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     135   1263.599954  n
+IINR4D0            tcbn65gplustc
+                                  3.600000       1      3.600000  
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+IND4D0             tcbn65gplustc
+                                  2.880000       1      2.880000  
+INR2D1             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      27     77.760003  
+INR2XD2            tcbn65gplustc
+                                  4.680000      59    276.119990  
+INVD1              tcbn65gplustc
+                                  1.080000      67     72.360003  
+IOA21D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+MOAI22D1           tcbn65gplustc
+                                  2.880000       1      2.880000  
+ND2D1              tcbn65gplustc
+                                  1.440000       3      4.320000  
+NR2D1              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D2              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI31D1            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D1            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     14013.000233       1  14013.000233  h, n
+-----------------------------------------------------------------------------
+Total 29 references                                 16063.920193
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sun Mar 15 13:49:21 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+**SEQGEN**                        0.000000     147      0.000000  n, u
+*ADD_UNS_OP_4_1_4                 0.000000       1      0.000000  s, u
+*SELECT_OP_2.1_2.1_1              0.000000       6      0.000000  s, u
+*SELECT_OP_2.2_2.1_2              0.000000       1      0.000000  s, u
+*SELECT_OP_2.4_2.1_4              0.000000       3      0.000000  s, u
+*SELECT_OP_2.5_2.1_5              0.000000       1      0.000000  s, u
+*SELECT_OP_2.22_2.1_22            0.000000       1      0.000000  s, u
+*SELECT_OP_2.64_2.1_64            0.000000       4      0.000000  s, u
+*SELECT_OP_3.1_3.1_1              0.000000       6      0.000000  s, u
+GTECH_AND2         gtech          0.000000       8      0.000000  u
+GTECH_BUF          gtech          0.000000      11      0.000000  u
+GTECH_NOT          gtech          0.000000      12      0.000000  u
+GTECH_OR2          gtech          0.000000       8      0.000000  u
+mac_8in_bw8_bw_psum22_pr8         0.000000       1      0.000000  h, n, u
+-----------------------------------------------------------------------------
+Total 14 references                                     0.000000
+1
+ 
+****************************************
+Report : reference
+Design : mac_col
+Version: K-2015.06-SP2
+Date   : Sun Mar 15 13:54:02 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AO21D0             tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI21D0            tcbn65gplustc
+                                  2.160000       1      2.160000  
+AOI22D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+AOI221D0           tcbn65gplustc
+                                  2.880000       1      2.880000  
+BUFFD2             tcbn65gplustc
+                                  2.160000       2      4.320000  
+CKAN2D0            tcbn65gplustc
+                                  2.160000       1      2.160000  
+CKBD4              tcbn65gplustc
+                                  3.240000       1      3.240000  
+CKND2D0            tcbn65gplustc
+                                  1.440000       2      2.880000  
+DFQD1              tcbn65gplustc
+                                  6.840000      12     82.080002  n
+EDFQD1             tcbn65gplustc
+                                  9.360000     134   1254.239954  n
+EDFQD4             tcbn65gplustc
+                                 10.800000       1     10.800000  n
+IND2D1             tcbn65gplustc
+                                  2.160000       1      2.160000  
+INR2D0             tcbn65gplustc
+                                  2.160000       9     19.440001  
+INR2D2             tcbn65gplustc
+                                  2.880000      86    247.680010  
+INVD0              tcbn65gplustc
+                                  1.080000      71     76.680003  
+INVD1              tcbn65gplustc
+                                  1.080000       1      1.080000  
+ND3D0              tcbn65gplustc
+                                  2.160000       1      2.160000  
+ND4D0              tcbn65gplustc
+                                  2.520000       1      2.520000  
+NR2D0              tcbn65gplustc
+                                  1.440000     132    190.080008  
+NR2D1              tcbn65gplustc
+                                  1.440000       1      1.440000  
+OAI21D1            tcbn65gplustc
+                                  2.160000       1      2.160000  
+OAI21D2            tcbn65gplustc
+                                  3.240000       1      3.240000  
+OAI31D0            tcbn65gplustc
+                                  2.520000       1      2.520000  
+OAI32D0            tcbn65gplustc
+                                  2.880000       1      2.880000  
+mac_8in_bw8_bw_psum22_pr8     13468.320200       1  13468.320200  h, n
+-----------------------------------------------------------------------------
+Total 25 references                                 15392.160179
+1

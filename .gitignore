@@ -1,0 +1,57 @@
+# HDL simulation/build artifacts
+*.vvp
+*.vvp.out
+*.vcd
+*.fsdb
+*.fst
+*.shm
+*.wlf
+*.out
+*.log
+*.err
+*.jou
+*.key
+ucli.key
+simv
+simv.*
+simv_*
+*_simv
+simv.daidir/
+csrc/
+DVEfiles/
+INCA_libs/
+work/
+transcript
+*.mr
+*.pvl
+*.syn
+_build_*
+
+# Root-level scratch testbenches
+/_*_tb.v
+/_*.v
+/_*_build
+/_*build*
+_tmp*
+/*_run
+/_probe_single_log.txt
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore encrypted data files and directories with the same suffix
+*.enc.dat
+*.enc.dat/
+.claude

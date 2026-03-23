@@ -185,21 +185,6 @@ This repository is not yet a fully turnkey reproduction kit. Some environment as
 
 - Code owner: `@JustinLinKK`
 - GitHub CODEOWNERS file: [`.github/CODEOWNERS`](./.github/CODEOWNERS)
-
-## Missing Information To Fill Before Final Public Polish
-
-The repo is already strong on technical artifacts, but a few release-facing details are still missing or unclear from the files alone:
-
-- Project abstract: a short 3-5 sentence summary of the problem, novelty, and headline result for non-specialist readers
-- Target platform / process: exact process node, library, and intended implementation context you want to state publicly
-- Toolchain requirements: simulator, synthesis tool, PnR tool, Python version, and required Python packages
-- Reproduction steps: exact commands for running the main RTL simulations and regenerating the key figures / reports
-- Evaluation summary: which metrics you want highlighted publicly such as frequency, area, power, latency, throughput, sparsity savings, or accuracy impact
-- Figure captions: short human-readable captions for each image so outside readers know what each figure demonstrates
-- Citation info: paper title, authors, affiliation, BibTeX, and contact email if you want this to be citable
-- Version / release tag: a named release identifier such as `v1.0` or `artifact-eval-2026`
-- Script path cleanup: the generator scripts still reference `Step6/...` in defaults, which should be updated if you want fully plug-and-play public reproduction
-
 ## License
 
 This repository is distributed under a proprietary, all-rights-reserved license. No reuse, redistribution, modification, or derivative works are permitted without prior written permission. See [`LICENSE`](./LICENSE).
